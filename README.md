@@ -120,7 +120,7 @@ jupyter notebook titanic_survival.ipynb
 <details>
 <summary><strong>🔧 Clean and Prepare Data for Neural Networks</strong></summary>
 
-- [ ] **Task 5**: Handle missing values (Age imputation, Embarked filling)
+- [x] **Task 5**: Handle missing values (Age imputation, Embarked filling)
 - [ ] **Task 6**: Feature engineering (Title extraction, Family size)
 - [ ] **Task 7**: Encode categorical variables (Sex, Embarked one-hot)
 - [ ] **Task 8**: Feature scaling with StandardScaler
@@ -131,9 +131,9 @@ jupyter notebook titanic_survival.ipynb
 - 🎯 **Categorical Encoding**: Convert text to numerical features
 - 🎯 **Scaling**: Prepare data for neural network training
 
-**Next Steps:**
-- 🎯 **Age Imputation**: Use median age by passenger class
-- 🎯 **Title Extraction**: Parse passenger names for social status
+**Progress:**
+- ✅ **Missing Values**: Age imputed by class/gender medians, Embarked filled with mode, Cabin dropped
+- 🎯 **Next**: Title extraction from passenger names for social status
 - 🎯 **Categorical Encoding**: Convert Sex and Embarked to numerical
 - 🎯 **Feature Scaling**: Standardize numerical features for neural network
 
@@ -219,6 +219,7 @@ This project reinforces concepts from my previous **Hotel Cancellation Predictor
 - [x] Feature engineering and data transformation
 - [x] Comprehensive survival rate analysis by multiple features
 - [x] Age group categorization and family size analysis
+- [x] Missing value imputation strategies and data preprocessing
 - [ ] Neural network architecture design  
 - [ ] Training loop implementation and debugging
 - [ ] Model evaluation and business interpretation
