@@ -101,14 +101,17 @@ jupyter notebook titanic_survival.ipynb
 **Key Findings:**
 - ✅ **Survival Rate**: 38.4% overall survival rate
 - ✅ **Gender Impact**: Women had 74% survival rate vs 19% for men
-- ✅ **Class Matters**: 1st class 63% survival vs 3rd class 24%
-- ✅ **Family Patterns**: Solo travelers 30% vs small families 40-72% survival
+- ✅ **Class Hierarchy**: 1st class (63%) > 2nd class (47%) > 3rd class (24%)
+- ✅ **Age Patterns**: Children (58%) > Young Adults (38%) > Seniors (29%) survival
+- ✅ **Family Patterns**: Solo travelers (30%) vs small families (55-72%) survival
+- ✅ **Strongest Predictors**: Pclass (-0.34), Fare (+0.26), Gender correlation
 - ✅ **Missing Data**: Age (20%), Cabin (77%), Embarked (0.2%)
 
 **Technical Achievements:**
-- ✅ **Feature Engineering**: Created Family_Size and Family_Category features
+- ✅ **Feature Engineering**: Created Family_Size, Family_Category, and Age_group features
 - ✅ **Visualizations**: Generated correlation heatmaps and survival pattern charts
 - ✅ **Statistical Analysis**: Comprehensive correlation matrix with key insights
+- ✅ **Data Analysis**: Detailed survival rate breakdowns by all major features
 - ✅ **Data Quality**: Identified missing value strategies for preprocessing
 
 </details>
@@ -214,6 +217,8 @@ This project reinforces concepts from my previous **Hotel Cancellation Predictor
 - [x] Statistical analysis and correlation interpretation
 - [x] Data visualization with matplotlib and seaborn
 - [x] Feature engineering and data transformation
+- [x] Comprehensive survival rate analysis by multiple features
+- [x] Age group categorization and family size analysis
 - [ ] Neural network architecture design  
 - [ ] Training loop implementation and debugging
 - [ ] Model evaluation and business interpretation
