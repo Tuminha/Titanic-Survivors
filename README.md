@@ -122,7 +122,7 @@ jupyter notebook titanic_survival.ipynb
 
 - [x] **Task 5**: Handle missing values (Age imputation, Embarked filling)
 - [x] **Task 6**: Feature engineering (Title extraction, Family size)
-- [ ] **Task 7**: Encode categorical variables (Sex, Embarked one-hot)
+- [x] **Task 7**: Encode categorical variables (Sex, Embarked one-hot)
 - [ ] **Task 8**: Feature scaling with StandardScaler
 
 **Goals:**
@@ -134,8 +134,8 @@ jupyter notebook titanic_survival.ipynb
 **Progress:**
 - ✅ **Missing Values**: Age imputed by class/gender medians, Embarked filled with mode, Cabin dropped
 - ✅ **Feature Engineering**: Title extraction completed with 5 categories (Mr, Mrs, Miss, Master, High-Status)
-- 🎯 **Next**: Categorical encoding for Sex and Embarked variables
-- 🎯 **Feature Scaling**: Standardize numerical features for neural network
+- ✅ **Categorical Encoding**: Sex (label), Embarked (one-hot), Title_Group (one-hot) - all converted to numerical
+- 🎯 **Next**: Feature scaling with StandardScaler for neural network input
 
 </details>
 
