@@ -134,7 +134,8 @@ jupyter notebook titanic_survival.ipynb
 **Progress:**
 - ✅ **Missing Values**: Age imputed by class/gender medians, Embarked filled with mode, Cabin dropped
 - ✅ **Feature Engineering**: Title extraction completed with 5 categories (Mr, Mrs, Miss, Master, High-Status)
-- ✅ **Categorical Encoding**: Sex (label), Embarked (one-hot), Title_Group (one-hot) - all converted to numerical
+- ✅ **Categorical Encoding**: All categorical variables encoded - Sex (label), Embarked (one-hot), Title_Group (one-hot), Family_Category (one-hot), Age_group (one-hot)
+- ✅ **Data Cleanup**: Removed non-predictive columns (Name, Ticket, Title) - 22 features ready for neural network
 - 🎯 **Next**: Feature scaling with StandardScaler for neural network input
 
 </details>
