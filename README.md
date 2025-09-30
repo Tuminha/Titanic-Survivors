@@ -181,7 +181,7 @@ jupyter notebook titanic_survival.ipynb
 <summary><strong>🧠 Build and Train Survival Prediction Model</strong></summary>
 
 - [x] **Task 13**: Build neural network architecture
-- [ ] **Task 14**: Define loss function and optimizer
+- [x] **Task 14**: Define loss function and optimizer
 - [ ] **Task 15**: Train model with progress tracking
 - [ ] **Task 16**: Evaluate on test set
 - [ ] **Task 17**: Calculate comprehensive metrics
@@ -198,7 +198,9 @@ jupyter notebook titanic_survival.ipynb
 - ✅ **Layer Configuration**: 24→16→8→1 with ReLU and Sigmoid activations
 - ✅ **Parameter Count**: 545 parameters verified and ready for training
 - ✅ **Device Setup**: CPU configuration for model training
-- 🎯 **Next**: Define loss function and optimizer for training
+- ✅ **Loss Function**: Binary Cross Entropy (BCELoss) for binary classification
+- ✅ **Optimizer**: Adam optimizer with learning rate 0.001
+- 🎯 **Next**: Implement training loop with progress tracking
 
 </details>
 
