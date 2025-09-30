@@ -151,7 +151,7 @@ jupyter notebook titanic_survival.ipynb
 <summary><strong>⚙️ Prepare Data for PyTorch Neural Network</strong></summary>
 
 - [x] **Task 9**: Import PyTorch libraries
-- [ ] **Task 10**: Create feature and target tensors
+- [x] **Task 10**: Create feature and target tensors
 - [ ] **Task 11**: Train/test split (80/20)
 - [ ] **Task 12**: Verify data shapes and scaling
 
@@ -162,8 +162,9 @@ jupyter notebook titanic_survival.ipynb
 
 **Progress:**
 - ✅ **PyTorch Setup**: Libraries imported and environment ready
-- 🎯 **Next**: Create feature and target tensors from preprocessed data
-- 🎯 **Data Split**: Implement train/test split for model evaluation
+- ✅ **Tensor Creation**: Features (891, 24) and target (891,) converted to PyTorch tensors
+- ✅ **Feature Scaling**: StandardScaler applied to numerical features
+- 🎯 **Next**: Implement train/test split for model evaluation
 - 🎯 **Verification**: Ensure tensor shapes are correct for neural network
 
 </details>
