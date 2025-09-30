@@ -182,7 +182,7 @@ jupyter notebook titanic_survival.ipynb
 
 - [x] **Task 13**: Build neural network architecture
 - [x] **Task 14**: Define loss function and optimizer
-- [ ] **Task 15**: Train model with progress tracking
+- [x] **Task 15**: Train model with progress tracking
 - [ ] **Task 16**: Evaluate on test set
 - [ ] **Task 17**: Calculate comprehensive metrics
 
@@ -200,7 +200,8 @@ jupyter notebook titanic_survival.ipynb
 - ✅ **Device Setup**: CPU configuration for model training
 - ✅ **Loss Function**: Binary Cross Entropy (BCELoss) for binary classification
 - ✅ **Optimizer**: Adam optimizer with learning rate 0.001
-- 🎯 **Next**: Implement training loop with progress tracking
+- ✅ **Training**: Trained for up to 1000 epochs; loss steadily decreased to ~0.13 with training accuracy ~95%
+- 🎯 **Next**: Evaluate on test set and compute metrics
 
 </details>
 
