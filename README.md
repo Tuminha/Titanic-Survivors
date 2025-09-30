@@ -201,7 +201,8 @@ jupyter notebook titanic_survival.ipynb
 - ✅ **Loss Function**: Binary Cross Entropy (BCELoss) for binary classification
 - ✅ **Optimizer**: Adam optimizer with learning rate 0.001
 - ✅ **Training**: Trained for up to 1000 epochs; loss steadily decreased to ~0.13 with training accuracy ~95%
-- 🎯 **Next**: Evaluate on test set and compute metrics
+- ✅ **Evaluation (Test)**: Acc 72.63%, ROC-AUC 0.7734, PR-AUC 0.6655; Best threshold 0.55 (F1=0.667); Confusion matrix [[82, 28], [21, 48]]; Test loss 5.86
+- 🎯 **Next**: Task 17 — compute final metrics/plots and discuss business interpretation
 
 </details>
 
