@@ -24,6 +24,7 @@
 **Francisco Teixeira Barbosa**
 
 [![GitHub](https://img.shields.io/badge/GitHub-Tuminha-black?style=flat&logo=github)](https://github.com/Tuminha)
+[![Kaggle](https://img.shields.io/badge/Kaggle-Profile-20BEFF?style=flat&logo=kaggle&logoColor=white)](https://www.kaggle.com/franciscotbarbosa)
 [![Email](https://img.shields.io/badge/Email-cisco%40periospot.com-blue?style=flat&logo=gmail)](mailto:cisco@periospot.com)
 [![Twitter](https://img.shields.io/badge/Twitter-cisco__research-blue?style=flat&logo=twitter)](https://twitter.com/cisco_research)
 
@@ -259,6 +260,18 @@ Final Test Results (Optimal Threshold: 0.45):
 - ✅ **Model Calibration**: 98% predicted → 85% actual survived (highly reliable)
 - ✅ **Threshold Optimization**: Model naturally conservative, optimal at 0.45 vs 0.5
 - ✅ **Generalization**: Healthy overfitting control (train/test loss ratio: 2.8x)
+
+### **Visuals**
+
+<div align="center">
+
+<img src="images/correlation_matrix_numerical_features.png" alt="Correlation Matrix of Numerical Features" width="680" />
+
+<br /><br />
+
+<img src="images/kaggle_leaderboard.png" alt="Kaggle Leaderboard Result" width="680" />
+
+</div>
 
 ---
 
