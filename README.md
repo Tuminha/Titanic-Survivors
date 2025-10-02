@@ -326,6 +326,39 @@ This project reinforces concepts from my previous **Hotel Cancellation Predictor
 
 ---
 
+## 📦 **Kaggle Submission**
+
+The notebook includes a Phase 6 section that builds `submission.csv` for the Kaggle Titanic competition using the trained model and the same preprocessing pipeline (smart age imputation, encodings, scaling, and column alignment).
+
+### Generate
+Run the Phase 6 cells in `titanic_survival.ipynb`. They will:
+- Recreate train-time features on `data/test.csv`
+- Impute missing `Age` using medians learned from train
+- One-hot encode to match the training design matrix
+- Align columns to `X_df.columns` and scale numericals with the same `scaler`
+- Predict with the trained `model` (best threshold ~0.45)
+- Save `submission.csv` in the project root
+
+### Validate
+Before uploading, sanity-check the file:
+
+```python
+import pandas as pd
+s = pd.read_csv('submission.csv')
+assert list(s.columns) == ['PassengerId','Survived']
+assert s.shape[0] == 418
+assert s['Survived'].dropna().isin([0,1]).all()
+print('Submission looks valid:', s.shape)
+```
+
+### Upload
+- UI: Kaggle → Titanic competition → Submit Predictions → upload `submission.csv`
+- CLI (optional): `kaggle competitions submit -c titanic -f submission.csv -m "NN + smart age imputation (t=0.45)"`
+
+Note: `submission.csv` may be regenerated at any time; rebuild it after code or threshold changes to keep it in sync.
+
+---
+
 ## 📄 **License**
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
