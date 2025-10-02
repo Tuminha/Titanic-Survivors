@@ -227,7 +227,8 @@ jupyter notebook titanic_survival.ipynb
 - 🎯 **Threshold**: Further optimize prediction cutoff
 
 **Planned Improvements:**
-- [ ] **Smart Age Imputation**: Impute by Sex + Pclass + Title combinations
+- [x] **Smart Age Imputation**: Impute by Sex + Pclass + Title combinations (completed)
+- [ ] **Retrain & Evaluate**: Re-encode, rescale, retrain, and compare metrics (prepared)
 - [ ] **Fare Engineering**: Create Fare_per_person (Fare ÷ Family_Size)
 - [ ] **Cabin Deck**: Extract deck letters (A, B, C, D, E, F, T) from cabin numbers
 - [ ] **Hyperparameter Tuning**: Learning rate, architecture optimization
