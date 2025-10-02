@@ -15,6 +15,8 @@
 
 </div>
 
+> First Kaggle submission: **0.77751** accuracy on the public leaderboard — not an amazing result, but it's honest work. Next up: smarter features and tuning.
+
 ---
 
 ## 👨‍💻 **Author Information**
